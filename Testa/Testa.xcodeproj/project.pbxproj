@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E30B6FA1C24117800590A38 /* MEssageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E30B6F91C24117800590A38 /* MEssageViewController.m */; };
+		4E30B6FD1C24122800590A38 /* 111ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E30B6FC1C24122800590A38 /* 111ViewController.m */; };
 		4EF31FC91C22BE8B00E6BDAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF31FC81C22BE8B00E6BDAC /* main.m */; };
 		4EF31FCC1C22BE8B00E6BDAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF31FCB1C22BE8B00E6BDAC /* AppDelegate.m */; };
 		4EF31FCF1C22BE8B00E6BDAC /* Testa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EF31FCD1C22BE8B00E6BDAC /* Testa.xcdatamodeld */; };
@@ -28,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E30B6F81C24117800590A38 /* MEssageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEssageViewController.h; sourceTree = "<group>"; };
+		4E30B6F91C24117800590A38 /* MEssageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEssageViewController.m; sourceTree = "<group>"; };
+		4E30B6FB1C24122800590A38 /* 111ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 111ViewController.h; sourceTree = "<group>"; };
+		4E30B6FC1C24122800590A38 /* 111ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 111ViewController.m; sourceTree = "<group>"; };
 		4EF31FC31C22BE8B00E6BDAC /* Testa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF31FC71C22BE8B00E6BDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EF31FC81C22BE8B00E6BDAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -65,6 +71,8 @@
 		4EF31FBA1C22BE8A00E6BDAC = {
 			isa = PBXGroup;
 			children = (
+				4E30B6FB1C24122800590A38 /* 111ViewController.h */,
+				4E30B6FC1C24122800590A38 /* 111ViewController.m */,
 				4EF31FC51C22BE8B00E6BDAC /* Testa */,
 				4EF31FE21C22BE8B00E6BDAC /* TestaTests */,
 				4EF31FC41C22BE8B00E6BDAC /* Products */,
@@ -84,6 +92,8 @@
 			isa = PBXGroup;
 			children = (
 				4EF31FCA1C22BE8B00E6BDAC /* AppDelegate.h */,
+				4E30B6F81C24117800590A38 /* MEssageViewController.h */,
+				4E30B6F91C24117800590A38 /* MEssageViewController.m */,
 				4EF31FCB1C22BE8B00E6BDAC /* AppDelegate.m */,
 				4EF31FD01C22BE8B00E6BDAC /* ViewController.h */,
 				4EF31FD11C22BE8B00E6BDAC /* ViewController.m */,
@@ -222,7 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E30B6FA1C24117800590A38 /* MEssageViewController.m in Sources */,
 				4EF31FCC1C22BE8B00E6BDAC /* AppDelegate.m in Sources */,
+				4E30B6FD1C24122800590A38 /* 111ViewController.m in Sources */,
 				4EF31FCF1C22BE8B00E6BDAC /* Testa.xcdatamodeld in Sources */,
 				4EF31FD21C22BE8B00E6BDAC /* ViewController.m in Sources */,
 				4EF31FC91C22BE8B00E6BDAC /* main.m in Sources */,
@@ -418,6 +430,7 @@
 				4EF31FEB1C22BE8B00E6BDAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EF31FEC1C22BE8B00E6BDAC /* Build configuration list for PBXNativeTarget "TestaTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				4EF31FEE1C22BE8B00E6BDAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
